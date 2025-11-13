@@ -1,23 +1,9 @@
-// import express from 'express';
-// const app = express();
+import express from 'express';
+const app = express();
 
-// app.listen(3333, () => {
-//   console.log("listening...");
-// });
-
-
-// app.get("/api", (req, res)=>{
-//     console.log("Hello")
-//     setInterval(async () => {
-//     try {
-//       await fetch("https://skfood.onrender.com/");
-//       console.log("Response from 6363");
-//     } catch (err) {
-//       console.error("Error calling API:", err.message);
-//     }
-//     }, 850000);
-// })
-
+app.listen(3333, () => {
+  console.log("listening...");
+});
 
 let intervalStarted = false;
 
