@@ -6,7 +6,7 @@ app.listen(3333, () => {
 });
 
 
-app.get("/", (req, res)=>{
+app.get("/api", (req, res)=>{
     console.log("Hello")
     setInterval(async () => {
     try {
