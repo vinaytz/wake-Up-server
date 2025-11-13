@@ -36,6 +36,6 @@ app.get("/", (req, res) => {
       } catch (err) {
         console.error("Error calling API:", err.message);
       }
-    }, 1000);
+    }, 850000);
   }
 });
